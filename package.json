@@ -1,0 +1,56 @@
+{
+  "name": "@jainvipin69/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint React configuration for JS projects based on airbnb and Prettier configs",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write **/*.js",
+    "lint": "eslint ./ --ignore-path .gitignore",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "jainvipin69 Solutions Informatiques",
+  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "airbnb-config",
+    "prettier-config",
+    "react",
+    "hooks",
+    "react-hooks",
+    "imaginary-cloud",
+    "imaginarycloud"
+  ],
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainvipin69/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jainvipin69/eslint-config/issues"
+  },
+  "homepage": "https://github.com/jainvipin69/eslint-config#readme"
+}
