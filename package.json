@@ -1,6 +1,6 @@
 {
   "name": "@jainvipin69/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint React configuration for JS projects based on airbnb and Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -48,6 +48,9 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "publishConfig": {
+    "registry":"https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
